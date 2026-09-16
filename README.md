@@ -16,18 +16,21 @@ A Home Assistant custom Lovelace card that visually emulates Daikin wired wall c
 ### HACS (Recommended)
 
 1. Open HACS in Home Assistant
-2. Go to Frontend > Custom Repositories
-3. Add this repository URL
-4. Install "Daikin Controller Card"
-5. Refresh your browser
+2. Click the three-dot menu in the top right and select **Custom repositories**
+3. Paste this repository URL: `https://github.com/rellis-erigon/HA-Dakin-Controller-Card-`
+4. Select **Dashboard** as the category
+5. Click **Add**
+6. Search for "Daikin Controller Card" in HACS and click **Install**
+7. Refresh your browser (hard refresh: Ctrl+Shift+R / Cmd+Shift+R)
 
 ### Manual
 
-1. Download `daikin-controller-card.js` from the `dist/` folder
+1. Download `daikin-controller-card.js` from the [latest release](https://github.com/rellis-erigon/HA-Dakin-Controller-Card-/releases/latest)
 2. Copy to your `config/www/` directory
 3. Add the resource in HA: Settings > Dashboards > Resources
    - URL: `/local/daikin-controller-card.js`
    - Type: JavaScript Module
+4. Refresh your browser
 
 ## Configuration
 
