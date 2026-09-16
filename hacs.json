@@ -1,0 +1,6 @@
+{
+  "name": "Daikin Controller Card",
+  "render_readme": true,
+  "filename": "daikin-controller-card.js",
+  "content_in_root": false
+}
